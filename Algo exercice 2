@@ -1,5 +1,0 @@
-réel rayon,aire,volume
-lire rayon
-aire <-- 4*π*rayon*rayon
-volume <-- (4/3)*π*rayon*rayon*rayon
-écrire "L'air de la sphère est :",aire,"et le volume de la sphère est :",volume
