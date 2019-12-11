@@ -1,0 +1,17 @@
+Entier x,n,s
+Réel r
+Chaîne choix
+début
+s <-- 0
+n <-- 0
+faire 
+    écrire "veuillez saisir 1 nombre"
+    lire x
+    s <-- x+s
+	n <-- n+1
+    écrire "Souhaitez-vous ajoutez un nombre? (Oui/Non)"
+    lire choix
+tant que choix="oui"
+r <-- s/n
+écrire "La moyenne est de",r
+fin	
