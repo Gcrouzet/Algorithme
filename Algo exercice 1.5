@@ -1,0 +1,20 @@
+réel s,i,n,sfis,sfic,cpt,taux
+début
+écrire "saisir la somme initiale"
+lire s
+écrire "saisir l'intérêt"
+lire i
+écrire "saisir le nombre d'années de placement"
+lire n
+	sfis <-- s(1+n*i)
+écrire "La valeur acquise avec intérêt simple est:",sfis
+lire 
+cpt  <-- 1
+taux <-- i+1
+	tant que cpt <=n
+		cpt  <-- cpt+1
+		taux <-- taux*(1+i)
+	fin tant que
+sfic <-- taux*s
+écrire " La valeur acquise avec intérêt composé est:",sfic	
+fin

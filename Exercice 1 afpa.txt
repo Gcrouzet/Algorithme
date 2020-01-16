@@ -1,0 +1,39 @@
+// tant que
+Entier n, somme
+Début
+somme<--0
+	Ecrire "Veuillez saisir un nombre :"
+	lire n 
+Tant que n>0
+somme<-- somme+n
+n<-- n-1
+Fin tant que
+Ecrire "Le résultat avec tant que :",somme
+Fin
+
+//	Répéter
+
+Entier n, somme
+Début 
+    Ecrire "veuillez saisir un nombre"
+    Lire n
+Repeter
+	somme <-- somme+n
+	n <-- n-1
+jusquà n=0
+    Ecrire "Le résultat avec Repeter est :", somme
+Fin
+
+//Pour
+
+Entier n, somme
+Début 
+    Ecrire "veuillez saisir un nombre"
+    Lire n
+        Pour n>0
+            Faire 
+    somme <-- somme+n
+    n <-- n-1
+        Fin Pour 
+    Ecrire "Le résultat avec Pour est :", somme
+Fin 
